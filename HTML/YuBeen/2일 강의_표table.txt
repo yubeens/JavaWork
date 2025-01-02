@@ -1,0 +1,21 @@
+행 tr -줄 가로
+셀 td - 데이터 table date
+제목 셀 th
+
+thead th - table head 
+tbody td - table body
+tfoot tf - table foot
+
+(표 합치기)
+colspan - 가로줄 셀 합치기
+rowspan - 세로줄 셀 합치기
+<td rowspan "합칠 셀의 개수">셀의 내용</td>
+합친 셀은 중복입력 X
+
+colgroup태그 - 각 열의 스타일
+모든 열의 개수 만큼 col태그 작성해야함
+각 열마다 다른 스타일을 설정하여 표의 형식을 다양하게 만들 수 있음
+
+이미지태그
+<img src = "이미지 주소"> -> 상대경로
+../ (상위폴더에 있는 이미지 경로찾는 방식)
